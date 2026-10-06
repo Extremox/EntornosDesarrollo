@@ -20,27 +20,24 @@ public class ED_Debug {
 		// Por qué no va el ==   ???
 		
 		// Qué tengo que hacer para solucionarlo ???
-		
-		if(string1 == string2 ) {
+
+		if(string1.equals(string2)) {
 			System.out.println("SON IGUALES " + a);
-			
+
 		}
 		else {
 			System.out.println("SON DIFERENTES");
 		}
-		
-		
-		
+
+
+
 	}
-	
-	
-	public void funcion2() {
-		
+
+	public static void funcion2() {
+
 		System.out.println("--------------------");
 		System.out.println("Esta es la función 2");
 		System.out.println("Cómo hago la llamada para que funcione????");
-		
-		
 	}
 	
 	
